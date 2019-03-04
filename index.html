@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>ROCRP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="JUSTIN.css">
+    <link href="JUSTIN.css" rel="stylesheet" type="text/css" media="screen">
    <!-- <script src="main.js"></script> -->
 </head>
 <body>
@@ -36,13 +36,21 @@
             </fieldset>
                 
              <fieldset>
-                 <label for="position">What position are you applying for:</label>
-                 <select id="position" name="position">
-                                <option selected disabled value="">Select position...</option>
-                                <option value="Admin">Admin</option>
-                                <option value="option1">Option 2</option>
-                                <option value="option2">Option 3</option>
-                        </select>
+                 <div>
+                    <label for="position">What position are you applying for:</label>
+                    <select id="position" name="position">
+                            <option selected disabled value="">Select position...</option>
+                            <option value="Admin">Admin</option>
+                            <option value="option1">Option 2</option>
+                            <option value="option2">Option 3</option>
+                    </select>
+                </div>
+                <div> 
+                    <label for="previousBan">Have you previously been banned from other communities?</label>
+                    <input type="radio" id="previousBan-no" name="previousBan" value="no">No
+                    <input type="radio" id="previousBan-yes" name="previousBan" value="yes">yes
+                </div>
+
              </fieldset>
         </form>
      </main>

@@ -27,6 +27,6 @@ header img {
 img#background {background-repeat: 1;}
 
 form {
-    background-color: rgba(240, 221, 26, .5);
+    background-color: rgba(240, 221, 26, .7);
     border: 2px ridge rgb(240, 222, 27);
 }
