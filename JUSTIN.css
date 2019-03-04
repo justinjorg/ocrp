@@ -1,0 +1,27 @@
+
+body{
+    background-image: url("image/OCRP_SO.jpg");
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    height: 10rem;
+    width: 100%;
+    color: red;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+header img {
+    display: absolute;
+    z-index: 2;
+    border-radius: 10px;
+    width: 40%;
+    height: auto;
+}
+
+img#background {background-repeat: 1;}
