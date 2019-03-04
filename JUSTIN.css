@@ -33,6 +33,6 @@ form {
     margin: auto;
 }
 
-form fieldset div {
-    padding: .5rem;
+div.box {
+    padding: 1rem;
 }
