@@ -17,7 +17,8 @@ header {
 }
 
 header img {
-    display: absolute;
+    background-image: url('image/car-police-car-road-1682385.jpg');
+    background-repeat: repeat-x;
     z-index: 2;
     border-radius: 10px;
     width: 5;
